@@ -152,15 +152,14 @@ $$
    - 잠재 표현(Latent Representation)을 학습하는 모델
    - 입력 데이터를 재구성하는 과정으로 이상치 탐지하는 대표적인 모델
    - 변수 추출(feature extraction) 또는 Denoising 용도
->
+
 </br>
-> - 오토인코더 모델의 기본 구조 아래와 같다.
+
+ - 오토인코더 모델의 기본 구조 아래와 같다.
 ![](https://velog.velcdn.com/images/yjhut/post/6f5a0720-7771-402b-810b-345c979963ff/image.png)
-> - 일반적으로 `입력 데이터 차원의 크기 > 잠재 차원의 크기`이고, 이를 `Undercomplete Autoencodedr`라 하여, 차원 축소 or 압축 개념으로 사용
->
-> - 반대로 `입력 데이터 차원의 크기 < 잠재 차원의 크기`인 경우, `Overcomplete Autoencoder`라 하여, 데이터의 특징 학습(Featuring Learning)하는 데 사용
->
->
+
+- 일반적으로 `입력 데이터 차원의 크기 > 잠재 차원의 크기`이고, 이를 `Undercomplete Autoencodedr`라 하여, 차원 축소 or 압축 개념으로 사용
+- 반대로 `입력 데이터 차원의 크기 < 잠재 차원의 크기`인 경우, `Overcomplete Autoencoder`라 하여, 데이터의 특징 학습(Featuring Learning)하는 데 사용
 - `Overcomplete`의 경우 Regularization이 없으면 모델이 입력을 복제하는 `Identify Mapping`이 발생할 위험이 높아지고, 이는 차원 확장의 의미가 없어지기 때문에 `weught_decay(L2)`, `BatchNorm`, `Sparsity Loss` 등 규제 필요
 
 <br>
