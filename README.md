@@ -154,8 +154,7 @@ $$
    - 변수 추출(feature extraction) 또는 Denoising 용도
 >
 </br>
->
-- 오토인코더 모델의 기본 구조 아래와 같다.
+> - 오토인코더 모델의 기본 구조 아래와 같다.
 ![](https://velog.velcdn.com/images/yjhut/post/6f5a0720-7771-402b-810b-345c979963ff/image.png)
 > - 일반적으로 `입력 데이터 차원의 크기 > 잠재 차원의 크기`이고, 이를 `Undercomplete Autoencodedr`라 하여, 차원 축소 or 압축 개념으로 사용
 >
