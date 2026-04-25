@@ -1,7 +1,6 @@
 - 데이콘 경진대회 데이터를 활용
 - 본문 내 개념 및 주요 실험 결과는 참고자료 참고! 
 - 모델링 Task
-- 🎒GitHub: https://github.com/kimho-jun/DACON_Black-box-optimization/tree/main
 
 ---
 
